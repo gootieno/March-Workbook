@@ -1,29 +1,47 @@
 .box1 {
   background-color: blueviolet;
+  border: 5px solid blue;
 }
 
 .box2 {
   background-color: greenyellow;
+  border: 2px dotted red;
+  border-radius: 5px;
 }
 
 .text1 {
   background-color: blue;
+  color: #FFC300
 }
 
 .text2 {
-  background-color: burlywood;
+  background-color: rgb(248, 221, 185);
+  color: rgb(235, 62, 71);
 }
 
 .box3 {
-  background-color: rgb(230, 230, 250);
+  background-color: rgba(230, 230, 250, 0.6);
+}
+
+h2 {
+  opacity: 0.5;
 }
 
 .box5 {
   background-color: lemonchiffon;
+  box-shadow: 8px 2px 15px teal;
+  /* the correct way below */
+  /* box-shadow: 2px 8px 15px teal; */
 }
+/* 
+.box5:hover {
+  background-color: lemonchiffon;
+  box-shadow: 2px 8px 15px teal;
+} */
 
 .box6 {
   background-color: papayawhip;
+  box-shadow: 5px -10px #800000
 }
 
 

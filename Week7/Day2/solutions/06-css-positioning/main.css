@@ -5,6 +5,7 @@ html, body {
 .container {
     background-color: #2b2d2f;
     position: relative;
+    height: 1200px;
 }
 
 .element {

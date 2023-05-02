@@ -1,16 +1,39 @@
 /* Your code here */
-
 #page-title {
-    color: blue;
-}
-.pages {
-    color: green;
+    font-weight: bold;
 }
 
-h1#page-title {
-    color: red;
+.pagenum {
+    position: absolute;
+    right: 10px;
+    font-size: small;
 }
 
+p {
+    text-align: justify;
+    /* margin-top: .75em;
+    margin-bottom: .75em; */
+    margin: .75em auto;
+}
+
+
+pre {
+    margin: 100px auto;
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+pre > a {
+    color: black;
+}
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
 
 .noin {

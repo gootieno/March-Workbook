@@ -1,36 +1,27 @@
-# Long Practice: Modernize Craigslist With CSS Attributes
+# Modernize Craigslist With CSS Attributes
 
 Craigslist is a notoriously under-designed and also very successful website. Its
 table-like design, gray panels, and royal blue hyperlinks hearken back to the
 early days of the Internet. It might be a blast from the past, but with a few
 simple style tweaks we can bring Craigslist into the modern world.
 
-In this practice, you will use CSS attributes to update the styles on an example
-Craigslist homepage. Use what you've learned about HTML attributes and CSS
+In this project, you will use CSS attributes to update the styles on an example
+Craigslist homepage. Use what you’ve learned about HTML attributes and CSS
 selectors to apply styles to various DOM elements.
 
-## Set up
+**Note:** In some of the instructions, you will be given the name of a CSS
+property that you are to use. You can use the [MDN CSS Reference] to help you
+figure out how to use those properties. Once a property has been introduced to
+you, following instructions that use it will not refer to the property, again.
 
-Clone the practice from the [starter].
+To start, clone the repository at
+https://github.com/appacademy-starters/css-modernize-craigslist-starter.
 
-Once you've in VS Code, you can drag the __index.html__ file into your browser
-to view the webpage, or use the **File Explorer** to open it in your browser.
+## Project overview
 
-> Remember to save the CSS file and refresh the page in the browser whenever you
-> make changes.
-
-## Background and Context
-
-In some of the instructions, you will be given the name of a CSS property that
-you are to use. You can use the [MDN CSS Reference] to help you figure out how
-to use those properties. Once a property has been introduced to you, following
-instructions that use it will not refer to the property, again.
-
-## Objective
-
-The objective of this practice is to re-skin the Craigslist homepage to use a
+The objective of this project is to re-skin the Craigslist homepage to use a
 more modern design aesthetic. Visit [craigslist.org][1] to see the most current
-version of the site. The following two screenshots show Craigslist's current
+version of the site. The following two screenshots show Craigslist’s current
 homepage and an updated homepage, respectively.
 
 **Current Craigslist homepage:**
@@ -41,14 +32,16 @@ homepage and an updated homepage, respectively.
 
 ![Updated Craigslist page](https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/craigslist-homepage-updated.png)
 
-The **index.html** file contains all the HTML for the example Craigslist
-homepage. Write all of your CSS for the page in **main.css**, which is linked in
-the HTML file.
+We have set up a project folder called _**attributes-project**_ for you to use.
+The _**attributes-project.html**_ file contains all the HTML for the example
+Craigslist homepage. Write all of your CSS for the page in
+_**attributes-project.css**_, which is linked in the HTML file.
 
 ## Phase 1: Add initial page styles
 
 Your Craigslist page should be bare-bones HTML at this point. Add the following
-initial styles to the page in your **main.css** file to make it look better:
+initial styles to the page in your _**attributes-project.css**_ file to make it
+look better:
 
 Use the **universal selector** to make all elements:
 
@@ -143,7 +136,7 @@ children of the UL with the class name "clfooter" and:
 
 The Craigslist logo is a purple peace sign, which also happens to be a common
 emoji these days. What else screams 2010s and beyond better than emojis? So,
-let's add some to the Craigslist homepage!
+let’s add some to the Craigslist homepage!
 
 **Peace Symbol Emoji:**
 
@@ -200,6 +193,6 @@ Go back through and make additional changes as you see fit -- make it your own! 
 [2]: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 [3]: https://developer.mozilla.org/en-US/docs/Web/CSS/::before
 [4]: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
-[5]: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+[5]:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 [MDN CSS Reference]: https://developer.mozilla.org/en-US/docs/Web/CSS
-[starter]: https://github.com/appacademy/practice-for-week-07-modernize-craigslist-long-practice

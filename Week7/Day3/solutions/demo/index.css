@@ -1,0 +1,39 @@
+#parent {
+    border: 2px solid black;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: pink;
+    /* position: relative; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.children {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+/* span {
+    display: block;
+} */
+#parent > #absolute {
+    background-color: blue;
+    position:sticky;
+    bottom: 0;
+    right: 0;
+ 
+}
+
+@media screen and (min-width: 800px){
+    #parent > #absolute  {
+        background-color: red;
+    }
+}

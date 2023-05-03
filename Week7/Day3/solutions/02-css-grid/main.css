@@ -13,7 +13,7 @@ html, body, div {
     /* Phase 1 */
     /* Your code here */
     display: grid;
-    grid-template-columns: 3fr auto 1fr;
+    grid-template-columns: 3fr 0% 1fr;
     grid-template-areas: 
     "header header header"
     "main . sidebar"

@@ -5,3 +5,7 @@
 - can you make the Happy Birthday letters individually change color on hover? 
 
 - Try adding media queries for mobile screens! Hint: inspect tool has an iphone/ipad looking icon. Select that and use the drop down under "responsive design" so select different device screen sizes. 
+
+- Lets not forget favicons :)
+
+- Deploy on Netlify! (instructions found in tomorrows short practice)

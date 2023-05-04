@@ -1,0 +1,67 @@
+/* ===== Problem 1 ===== */
+
+.rocket_svg {
+    height: 200px;
+    width: auto;
+    margin-left: 300px;
+    /* Your code here */
+    transition: 2s;
+}
+
+.rocket_svg:hover {
+    transform: rotate(250deg);
+}
+
+
+/* ===== Problem 2 ===== */
+
+.astronaut_svg {
+    height: 200px;
+    width: auto;
+    margin-left: 200px;
+    /* Your code here */
+    transition: transform 2s cubic-bezier(0, 3.67, 1, -0.48) 4s, height 2s cubic-bezier(1, 3.76, 0, -0.74);
+}
+
+.astronaut_svg:hover {
+    transform: translateX(100px);
+    height: 10px;
+}
+
+/* Create astronaut hover animation here
+
+/* ======= BONUS ======= */
+
+.earth_svg {
+    height: 200px;
+    width: auto;
+    margin-left: 300px;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    } 
+    /* 0% {
+        transform: rotate(0deg)
+    }
+
+    25% {
+        height: 50px;
+    }
+
+    50% {
+        margin-left: 100px;
+    }
+
+    100% {
+        transform: rotate(360deg)
+    } */
+}

@@ -108,6 +108,9 @@ const server = http.createServer((req, res) => {
 
     // Your code here
 
+    // if blocks for post requests and create a new cat or dog with info
+    // from the req.body
+
     res.statusCode = 404;
     res.end("Page Not Found");
     return;

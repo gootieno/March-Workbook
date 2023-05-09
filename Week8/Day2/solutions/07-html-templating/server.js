@@ -89,6 +89,15 @@ const server = http.createServer((req, res) => {
     // Phase 1: GET /dogs
     if (req.method === 'GET' && req.url === '/dogs') {
       // Your code here
+
+      /*
+        1. read html file save to variable
+        2. loop through dogs array and create li with dog names save to variable
+        3. replace #{dogsList} in html file with lis variable and save to
+          new variable
+        4. return new variable as res body.
+        5. res.end 
+      */
     }
 
     // Phase 2: GET /dogs/new

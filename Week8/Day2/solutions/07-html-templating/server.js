@@ -133,7 +133,7 @@ const server = http.createServer((req, res) => {
         const responseBody = htmlPage
           .replace(/#{name}/g, dog.name)
           .replace(/#{age}/, dog.age);
-
+cd 
         res.statusCode = 200;
         res.setHeader("Content-Type", "text/html");
         return res.end(responseBody)

@@ -47,7 +47,7 @@ const server = http.createServer((req, res) => {
     if (req.method === "GET" && req.url === "/styles") {
       const responseBody = fs.readFileSync("index.css");
       res.statusCode = 200;
-      res.setHeader("Content-Type", "text/html");
+      res.setHeader("Content-Type", "text/css");
       return res.end(responseBody);
     }
 

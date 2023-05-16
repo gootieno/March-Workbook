@@ -3,9 +3,12 @@ export default () => {
   // console.log(bodyChildElements);
 
   const div = bodyChildElements[0];
-
+  // console.log(div);
   const divChildElements = div.children; // HTMLCollection [span]
+  // console.log(divChildElements)
   const helloWorld = div.innerText; // Hello World! Yes!    <-- NOT Hello World!
+  // console.log(helloWorld)
   const span = divChildElements[0]; // <span>Yes!</span>
+  // console.log(span)
   // debugger
 };

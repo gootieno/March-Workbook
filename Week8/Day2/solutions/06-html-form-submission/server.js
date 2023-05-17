@@ -117,10 +117,35 @@ const server = http.createServer((req, res) => {
     }
 
     // Your code here
+    const postCat = async () => {
+      try {
+        const response = await fetch("/cat", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ name: "" }),
+        });
+        console.log(response);
 
+        if (response.ok) {
+          console.log("response ok");
+          console.log(await response.json());
+        } else {
+          const errors = await response.json();
+          console.log("response errors ", errors);
+        }
+      } catch (error) {
+        console.error(`Error: ${error}`);
+      }
+    };
     // if blocks for post requests and create a new cat or dog with info
     // from the req.body
     if (req.method === "POST" && req.url === "/cat") {
+      // const cat = req.body;
+      // if (!cat.name) {
+      //   res.statusCode = 400;
+      //   res.setHeader("Content-Type", "application/json");
+      //   return res.end(JSON.stringify({ message: "Enter Cat Name" }));
+      // }
       cat = new Cat(req.body);
 
       res.statusCode = 302;

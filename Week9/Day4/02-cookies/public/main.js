@@ -1,5 +1,19 @@
 /* ============================== PHASE 1 + 2 ============================== */
 
+const cookieParser = () => {
+    const cookieObj =  {}
+
+    // get cookies from storage
+
+    // loop through cookies and make key value pairs
+
+    // set the key to the value in cookie obj
+
+    // return cookie obj
+}
+
+
+
 // For storing user's theme selection in cookies
 function storeTheme(themeName) {
     // Your code here
@@ -30,6 +44,8 @@ function restoreName() {
 // For clearing user's display name from cookies
 function clearName() {
     // Your code here
+    // const cookieObj = cookieParser()
+    // favoriteCat=million; favoriteDog=bambi"
 }
 
 /* ========================================================================= */
